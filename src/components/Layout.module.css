@@ -1,0 +1,45 @@
+/* .main {
+  background-image: "../images/aaron-burden-RgTI2KaQ5N4-unsplash.jpg";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+
+/* .container{
+  
+} */
+
+.sub-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin: auto;
+  max-width: 90%;
+  font-family: sans-serif;
+  background: 
+    linear-gradient(to right, white 0%, #cecece 5%, #bbbbbb 15%, #b8b8b8 50%, #bbbbbb 85%, #cecece 95%, white 100%);
+  background-color: #b8b8b8;
+  box-shadow: 5px, 5px, 5px, 5px #b8b8b8;
+  /* background-color: rgb(59, 59, 59); */
+}
+
+.heading {
+  color: whitesmoke;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-link-item {
+  padding-right: 2rem;
+}
+
+.nav-link-text {
+  color: whitesmoke;
+}
+
+a:link {
+  text-decoration: none;
+}
