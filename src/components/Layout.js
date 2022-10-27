@@ -8,6 +8,10 @@ import {
   navLinks,
   navLinkItem,
   navLinkText,
+  headerCircle,
+  headerCircle2,
+  headerCircle3,
+  headerCircleDiv,
 } from "./Layout.module.css";
 
 export default function Layout({ pageTitle, children }) {
@@ -32,10 +36,17 @@ export default function Layout({ pageTitle, children }) {
             </li>
           </ul>
         </nav>
-        <main>
+        <div>
           <h1 className={heading}>{pageTitle}</h1>
           {children}
-        </main>
+        </div>
+      </div>
+      <div className={headerCircleDiv}>
+        <p className={headerCircle}>
+          <p className={headerCircle2}>
+          <p className={headerCircle3}></p>
+          </p>
+        </p>
       </div>
     </div>
   );

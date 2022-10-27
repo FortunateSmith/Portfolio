@@ -1,10 +1,36 @@
-/* main {
-  background-color: #002;
-  color: #fff
-} */
+body {
+  height: 100%;
+  background-color: #032e17;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+  color: #fff;
+
+}
 
 .body {
   display: flex;
   flex-direction: column;
   margin-left: 5%;
+  
+}
+
+.circular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border-style: none;
+  background: linear-gradient(to top, #032e17 0%, #fff 90%);
+}
+
+.sub-head{
+  background: linear-gradient(to top, #032e17 0%, #fff 90%);
+}
+
+.skills {
+  display: flex;
 }

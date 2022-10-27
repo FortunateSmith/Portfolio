@@ -1,9 +1,9 @@
 import React from "react";
-
+import { circular, skills } from "./Style.module.css"
 export default function Skills() {
   return (
-    <div>
-      <h2>Skills</h2>
+    <div className={skills}>
+      <h2><p className={circular}>Skills</p></h2>
       <div>
         <h3>Languages</h3>
         <p>
