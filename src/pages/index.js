@@ -12,17 +12,12 @@ export default function IndexPage() {
     <main>
       <div>
       <Layout pageTitle="Liam Smith">
-      {/* <StaticImage
-          alt="droplet of water on sand"
-          src="../images/aaron-burden-RgTI2KaQ5N4-unsplash.jpg"
-        /> */}
+
         </Layout>
-        <h1>
-        <p className={subHead}>Front End Developer</p>
-        </h1>
+
         </div>
         <div className={body}>
-      {/* <h1>Front End Developer</h1> */}
+
       <p>Under Construction</p>
       <About />
       <Skills />
