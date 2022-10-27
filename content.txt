@@ -1,0 +1,33 @@
+Skills:
+
+  LANGUAGES: JavaScript, Ruby, HTML, CSS, SQL
+  FRAMEWORKS & LIBRARIES: NodeJS, React, Ajax, Express, EJS, jQuery, Bootstrap, Axios, Rails
+  SYSTEMS & DATABASES: PostgreSQL, Git
+  TESTING LIBRARIES: Mocha, Chai, Cypress, Jest, Storybook
+  PROJECT TRACKING AND COLLABORATION: GitHub, Slack
+
+Projects:
+
+
+  ToolSwap	
+    Web CRUD app for scheduling a neighbourhood tool rental.
+      PERN Stack
+
+  Scheduler	
+    Schedule/Edit/Delete Interviews
+    Front-end: React, HTML + CSS
+    Back-end: Express, SQL, Node
+    Test: Cypress, Jest, StoryBook
+
+  Tweeter	
+    Twitter Clone
+    jQuery, HTML5, and CSS
+
+  TinyApp	
+    Users shorten long URLs (similar to bit.ly). TinyApp is built with Node and Express.
+    NodeJS, Express, EJS
+
+
+About Me:
+
+    Liam is a web developer and website developer focusing on frontend design and UX. His desire is to use skills of technology to create stronger, more resilient communities and to focus on equity among peoples. 
