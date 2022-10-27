@@ -54,7 +54,6 @@ a:link {
 .header-circle{
   border-style: solid;
   border-radius: 50%;
-  border-width: 6px;
   height: 100px;
   width: 20px;
 }
@@ -62,7 +61,6 @@ a:link {
 .header-circle-2{
   border-style: solid;
   border-radius: 50%;
-  border-width: 6px;
   height: 100px;
   width: 20px;
   position: relative;
@@ -73,7 +71,6 @@ a:link {
 .header-circle-3{
   border-style: solid;
   border-radius: 50%;
-  border-width: 6px;
   height: 100px;
   width: 20px;
   position: relative;
