@@ -3,8 +3,9 @@ import Layout from "../components/Layout";
 import { StaticImage } from 'gatsby-plugin-image'
 // import { Link } from "gatsby";
 // import { main } from "./style.css"
-import About from "./about";
-import Skills from "./skills";
+import About from "../components/about";
+import Skills from "../components/skills";
+import Projects from "../components/projects";
 import { body, subHead } from "./Style.module.css"
 
 export default function IndexPage() {
@@ -21,6 +22,7 @@ export default function IndexPage() {
       <p>Under Construction</p>
       <About />
       <Skills />
+      <Projects />
       </div>
     </main>
   );

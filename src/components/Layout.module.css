@@ -14,7 +14,7 @@
   border: solid 1.5em;
   border-color: transparent;
   background: 
-  linear-gradient(to right, #c0d5ca 0%, #298754 15%, #05100a 50%, #298754 85%, #c0d5ca 100%);
+  linear-gradient(to right, #c0d5ca 0%, #298754 15%, #000 50%, #298754 85%, #c0d5ca 100%);
   background-color: #dbfef5;
 }
 
@@ -36,6 +36,10 @@
 
 .heading {
   color: whitesmoke;
+}
+
+h2.heading {
+  font-style: italic;
 }
 
 .nav-links {

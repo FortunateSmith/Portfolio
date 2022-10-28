@@ -12,6 +12,7 @@ import {
   headerCircle3,
   headerCircleDiv,
   subHead,
+  titleDiv
 } from "./Layout.module.css";
 
 export default function Layout({ pageTitle, children }) {
@@ -32,17 +33,18 @@ export default function Layout({ pageTitle, children }) {
         </ul>
       </nav>
 
-      <div>
+      <div className={titleDiv}>
         <h1 className={heading}>{pageTitle}</h1>
+        <h2 className={heading}>Frontend Developer</h2>
         {children}
       </div>
 
       <div className={headerCircleDiv}>
-        <p className={headerCircle}>
+        {/* <p className={headerCircle}>
           <p className={headerCircle2}>
             <p className={headerCircle3}></p>
           </p>
-        </p>
+        </p> */}
       </div>
     </div>
   );
