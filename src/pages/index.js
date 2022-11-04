@@ -19,7 +19,7 @@ export default function IndexPage() {
         </div>
         <div className={body}>
 
-      <p>Under Construction</p>
+      {/* <p>Under Construction</p> */}
       <About />
       <Skills />
       <Projects />

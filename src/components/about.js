@@ -7,10 +7,10 @@ export default function About() {
   return (
     <div className={circular}>
       <h2>
-        <p >About Liam</p>
+        <p >About</p>
       </h2>
       {/* <Layout pageTitle="About"></Layout> */}
-      <p>Liam Smith is a front end developer, who studied under the tutelage of Ian Bentley at Lighthouse Labs </p>
+      {/* <p>Liam Smith is a front end developer, who studied under the tutelage of Ian Bentley at Lighthouse Labs </p> */}
     </div>
   );
 }

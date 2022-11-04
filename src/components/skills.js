@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <div className={circular}>
       <h2><p >Skills</p></h2>
-      <div>
+      {/* <div>
         <h3>Languages</h3>
         <p>
           * HTML/CSS
@@ -24,7 +24,7 @@ export default function Skills() {
           * Bootstrap
           * Axios
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }
